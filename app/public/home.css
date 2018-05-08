@@ -1,6 +1,6 @@
 body {
     margin: 0 auto;
-    max-width: 1040px;;
+    max-width: 1080px;;
 }
 
 .jumbotron{
@@ -40,8 +40,16 @@ h1 {
     box-shadow: #947099 0 0px 0px 40px inset;
   }
 
-  .row {
+  .infoLinks {
     text-align: left;
     display: inline;
     margin-left: 10px;
+  }
+
+  .block {
+    display: block;
+  }
+
+  p {
+    font-size: 20px;
   }
