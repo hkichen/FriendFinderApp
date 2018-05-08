@@ -1,10 +1,21 @@
 //This stores all friends data//
 var friendsData = [
     {
-        name: "Lisa Simpson",
-        photo: "https://",
-        scores: [1,2,3,4,3,5,6,2,3,5]
+        "name":"Ahmed",
+        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "scores":[
+            5,
+            1,
+            4,
+            4,
+            5,
+            1,
+            2,
+            5,
+            4,
+            1
+        ]
     }
-]
+];
 
 module.exports = friendsData;
