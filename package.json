@@ -1,0 +1,20 @@
+{
+  "name": "friendfinderapp",
+  "version": "1.0.0",
+  "description": "Take the survey to be matched with a new friend!",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hkichen/FriendFinderApp.git"
+  },
+  "author": "Lina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hkichen/FriendFinderApp/issues"
+  },
+  "homepage": "https://github.com/hkichen/FriendFinderApp#readme"
+}
