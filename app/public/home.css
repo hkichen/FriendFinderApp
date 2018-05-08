@@ -36,7 +36,7 @@ h1 {
   }
   
   a.button:hover {
-    color: rgba(255, 255, 255, 0.85);
+    color: #ffffff;
     box-shadow: #947099 0 0px 0px 40px inset;
   }
 
