@@ -3,6 +3,9 @@ body {
     max-width: 1080px;
 }
 
+.content {
+  min-height: 430px;
+}
 .jumbotron{
     text-align: center;
     color: #947099;
