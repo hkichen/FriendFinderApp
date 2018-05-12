@@ -17,7 +17,7 @@ module.exports = function(app){
         var index = -1;
 
         for(var i = 0; i < friends.length; i++){
-            //Iterate through the whole list of friends already in database
+            //loop thru all friends already listed
             total = 0;
 
             for(var j = 0; j < newScore.length; j++){
