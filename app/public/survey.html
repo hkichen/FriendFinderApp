@@ -17,6 +17,13 @@
         <h5>Making new friends has never been easier</h5>
     </div>
     
+    <div class="links">
+        <div class="infoLinks">
+            <a href="/api/friends" id="gitHub">API Friends List</a> ||  
+            <a href="https://github.com/hkichen/FriendFinderApp" id="gitHub">GitHub Repo</a>
+        </div>
+    </div>
+    
     <div class="surveyContent">
         <p><strong>Survey Questions</strong></p>
         <hr><br>
@@ -61,7 +68,7 @@
                     <option value="5">5 (Strongly Agree)</option>
                 </select>
                 <hr>
-
+                
                 <h5><strong>Question 3</strong></h5>
                 <p>You find it easy to stay relaxed and focused even when there is some pressure.</p>
                 <select data-placeholder="" class="chosen-select" id="q3">
@@ -73,7 +80,7 @@
                     <option value="5">5 (Strongly Agree)</option>
                 </select>
                 <hr>
-
+                
                 <h5><strong>Question 4</strong></h5>
                 <p>You rarely do something just out of sheer curiosity.</p>
                 <select data-placeholder="" class="chosen-select" id="q4">
@@ -85,7 +92,7 @@
                     <option value="5">5 (Strongly Agree)</option>
                 </select>
                 <hr>
-
+                
                 <h5><strong>Question 5</strong></h5>
                 <p>People can rarely upset you.</p>
                 <select data-placeholder="" class="chosen-select" id="q5">
@@ -97,7 +104,7 @@
                     <option value="5">5 (Strongly Agree)</option>
                 </select>
                 <hr>
-
+                
                 <h5><strong>Question 6</strong></h5>
                 <p>It is often difficult for you to relate to other people’s feelings.</p>
                 <select data-placeholder="" class="chosen-select" id="q6">
@@ -120,7 +127,7 @@
                     <option value="5">5 (Strongly Agree)</option>
                 </select>
                 <hr>
-
+                
                 <h5><strong>Question 8</strong></h5>
                 <p>You rarely get carried away by fantasies and ideas.</p>
                 <select data-placeholder="" class="chosen-select" id="q8">
@@ -132,7 +139,7 @@
                     <option value="5">5 (Strongly Agree)</option>
                 </select>
                 <hr>
-
+                
                 <h5><strong>Question 9</strong></h5>
                 <p>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</p>
                 <select data-placeholder="" class="chosen-select" id="q9">
@@ -158,10 +165,9 @@
             </div>
         </div>
         <br><br>
-        <button type="submit" class="btn btn-info btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>
-            Submit</button>
-        </div>
+        <button type="submit" class="btn btn-warning btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>Submit</button>
     </div>
+    
     <div id="resultsModal" class="modal fade" role="dialog">
         <div class="modal-dialog">
             <div class="modal">
@@ -184,5 +190,8 @@
             <strong>Copyright Lina Kichen 2018</strong>
         </footer>
     </body>
+    <tail>
+        <script src="match.js"></script>
+    </tail>
     </html>
     
