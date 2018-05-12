@@ -165,33 +165,27 @@
             </div>
         </div>
         <br><br>
-        <button type="submit" class="btn btn-warning btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>Submit</button>
+        <button type="submit" class="btn btn-warning btn-lg btn-block" id="submitBtn"><i class="fa fa-check-circle" aria-hidden="true"></i>Submit</button>
     </div>
     
-    <div id="resultsModal" class="modal fade" role="dialog">
+    <div class="modal fade" id="imagemodal" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
-            <div class="modal">
-                <div class ="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">You've Made a Match!</h5>
-                    </div>
-                    <div class="modal-body">
-                        <p>Your new best friend is:<span id="matchName"></span></p>
-                        <img style="max-width: 400px" id="matchImg" src="http://via.placeholder.com/400x400" alt="">
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
-                    </div>
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <div class="caption" align="center">Your new bestie is ... </div>
+                    <img src="" id="imagepreview" height=80% width=80%>
+                    <div class="caption" id="caption" align="center"></div>
                 </div>
             </div>
         </div>
-        
-        <footer>
-            <strong>Copyright Lina Kichen 2018</strong>
-        </footer>
-    </body>
-    <tail>
-        <script src="match.js"></script>
-    </tail>
-    </html>
+    </div>
     
+    <footer>
+        <strong>Copyright Lina Kichen 2018</strong>
+    </footer>
+</body>
+<tail>
+    <script src="addFriend.js"></script>
+</tail>
+</html>
