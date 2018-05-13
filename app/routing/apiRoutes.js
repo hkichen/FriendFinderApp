@@ -25,7 +25,7 @@ module.exports = function(app){
                 var diff = Math.abs(newScore[j] - friends[i].scores[j]);
                 total += diff;
             }
-            if(total < bestMatch){
+            if(total < bestMatch) {
                 bestMatch = total;
                 index = i;
             }

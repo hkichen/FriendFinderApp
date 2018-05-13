@@ -15,7 +15,55 @@ var friends = [
             4,
             1
         ]
-    }
+    },
+    {
+        "name":"Safina",
+        "photo":"https://pbs.twimg.com/profile_images/874278998414684160/BVuTIEGW_400x400.jpg",
+        "scores":[
+            2,
+            4,
+            5,
+            1,
+            2,
+            1,
+            4,
+            3,
+            3,
+            1
+        ]
+    },
+    {
+        "name":"Albus",
+        "photo":"https://vignette.wikia.nocookie.net/harrypotter/images/d/d5/Albus_Dumbledore_%28HBP_promo%29_2.jpg/revision/latest/scale-to-width-down/359?cb=20090817194530",
+        "scores":[
+            5,
+            5,
+            4,
+            4,
+            4,
+            3,
+            1,
+            1,
+            2,
+            1
+        ]
+    },
+    {
+        "name":"Loki",
+        "photo":"http://static.tvtropes.org/pmwiki/pub/images/laufeyson_loki.jpg",
+        "scores":[
+            3,
+            3,
+            2,
+            4,
+            4,
+            5,
+            3,
+            2,
+            2,
+            5
+        ]
+    },
 ];
 
 module.exports = friends;
